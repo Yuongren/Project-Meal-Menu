@@ -1,0 +1,33 @@
+ body{
+    background: sandybrown;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars.disabled{
+    pointer-events: none;
+}
+
+.stars a{
+    opacity: 50%;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.stars:hover a {
+    opacity: 100%;
+}
+
+.stars a:hover {
+    opacity: 100%;
+}
+
+.stars a:hover ~a {
+    opacity: 50%;
+}
+
+.stars a.active {
+    opacity: 100%;
+}
