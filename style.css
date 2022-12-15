@@ -2,6 +2,10 @@
     background: sandybrown;
 }
 
+.h1 {
+    top: left;
+}
+
 .stars {
     display: flex;
 }
@@ -17,11 +21,11 @@
 }
 
 .stars:hover a {
-    opacity: 100%;
+    opacity: 200%;
 }
 
 .stars a:hover {
-    opacity: 100%;
+    opacity: 200%;
 }
 
 .stars a:hover ~a {
@@ -29,5 +33,5 @@
 }
 
 .stars a.active {
-    opacity: 100%;
+    opacity: 200%;
 }
