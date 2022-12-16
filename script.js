@@ -1,4 +1,10 @@
 // Write your code here
+document.addEventListener('DOMContentLoaded', (evetn) => {
+    getfoodsdrinksandsnacks()
+})
+
+
+
 
 const star = document.querySelector(".stars a")
 const stars = document.querySelectorAll(".stars a")

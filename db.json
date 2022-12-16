@@ -1,29 +1,184 @@
-{
-    "Films and Drinks":[
-        {
-            "Food name": "chicken",
-            "Order": "in or out of order",
-            "Waiting Time": "35 minutes"
-        },
-        {
-            "Food name": "chicken",
-            "Order": "in or out of order",
-            "Waiting Time": "35 minutes"
-        },
-        {
-            "Food name": "chicken",
-            "Order": "in or out of order",
-            "Waiting Time": "35 minutes"
-        },
-        {
-            "Food name": "chicken",
-            "Order": "in or out of order",
-            "Waiting Time": "35 minutes"
-        },
-        {
-            "Food name": "chicken",
-            "Order": "in or out of order",
-            "Waiting Time": "35 minutes"
-        }
-    ]
-}
+// {
+//     "foodsdrinksandsnacks": [
+//         {
+//             "food name ": "Fried fish",
+//             "price": "Ksh 400"
+//         },
+//         {
+//             "food name ": "Chicken Piccata" ,
+//             "price": "Ksh 1200"
+//         },
+//         {
+//             "food name ": "4-Ingredient Bacon Ranch Chicken Bake" ,
+//             "price": "Ksh 1500"
+//         },
+//         {
+//             "food name ": "One-Pan Balsamic Chicken and Veggies" ,
+//             "price": "Ksh 500"
+//         },
+//         {
+//             "food name ": "Buffalo Meatball Corn Dogs" ,
+//             "price": "Ksh 600"
+//         },
+//         {
+//             "food name ": "BBQ Chicken Rollups" ,
+//             "price": "Ksh 800"
+//         },
+//         {
+//             "food name ": "Taco-Stuffed Bell Peppers" ,
+//             "price": "Ksh 900 "
+//         },
+//         {
+//             "food name ": "Chicken Parm-Stuffed Spaghetti Squash" ,
+//             "price": "Ksh 1100"
+//         },
+//         {
+//             "food name ": "Fried Chicken" ,
+//             "price": "Ksh 500"
+//         },
+//         {
+//             "food name ": "Roasted Makai" ,
+//             "price": "Ksh 400"
+//         }, 
+//         {
+//             "food name ": "Githeri" ,
+//             "price": "Ksh 350"
+//         },
+//         {
+//             "food name ": "Egusi soup and pounded yam" ,
+//             "price": "Ksh 450"
+//         },
+//         {
+//             "food name ": "Pilau" ,
+//             "price": "Ksh 300"
+//         },
+//         {
+//             "food name ": "Wali wa Nazi" ,
+//             "price": "Ksh 600"
+//         },
+//         {
+//             "food name ": "Irio" ,
+//             "price": "Ksh 550"
+//         },
+//         {
+//             "drinks name": "Milk",
+//             "price": "Ksh 150"
+//         },
+//         {
+//             "drinks name": "Pinaple Juice" ,
+//             "price": "Ksh 250"
+//         },
+//         {
+//             "drinks name": "Orange Juice" ,
+//             "price": "Ksh 150"
+//         },
+//         {
+//             "drinks name": "Mango Juice" ,
+//             "price": "Ksh 150"
+//         },
+//         {
+//             "food name ": "Soda " ,
+//             "price": "Ksh 100"
+//         },
+//         {
+//             "drinks name": "Energy drink" ,
+//             "price": "Ksh 150"
+//         },
+//         {
+//             "drinks name": "Water" ,
+//             "price": "Ksh 50 "
+//         },
+//         {
+//             "drinks name": "wine " ,
+//             "price": "Ksh 600"
+//         },
+//         {
+//             "drinks name": "Fruity Jack 700" ,
+//             "price": "Ksh 250"
+//         },
+//         {
+//             "drinks name": "cappuccino" ,
+//             "price": "Ksh 400"
+//         }, 
+//         {
+//             "drinks name": "mocha " ,
+//             "price": "Ksh 350"
+//         },
+//         {
+//             "drinks name": "Black Coffee" ,
+//             "price": "Ksh 180"
+//         },
+//         {
+//             "drinks name": "espresso" ,
+//             "price": "Ksh 230"
+//         },
+//         {
+//             "drinks name": "Milkshakes" ,
+//             "price": "Ksh 240"
+//         },
+//         {
+//             "drinks name": "Mocktails" ,
+//             "price": "Ksh 410"
+//         },
+//         {
+//             "snacks name": "Batter and Dough-Based Snacks",
+//             "price": "Ksh 150"
+//         },
+//         {
+//             "snacks name": "Cookies" ,
+//             "price": "Ksh 200"
+//         },
+//         {
+//             "snacks name": "Snack Cakes" ,
+//             "price": "Ksh 250"
+//         },
+//         {
+//             "snacks name": "Confectionery" ,
+//             "price": "Ksh 120"
+//         },
+//         {
+//             "snacks name": "Pastries" ,
+//             "price": "Ksh 300"
+//         },
+//         {
+//             "snacks name": "Crips" ,
+//             "price": "Ksh 350"
+//         },
+//         {
+//             "snacks name": "Biscuits" ,
+//             "price": "Ksh 80"
+//         },
+//         {
+//             "snacks name": "Bread and Sandwiches" ,
+//             "price": "Ksh 120"
+//         },
+//         {
+//             "snacks name": "Cheese" ,
+//             "price": "Ksh 200"
+//         },
+//         {
+//             "snacks name": "Meat-based Snacks" ,
+//             "price": "Ksh 350"
+//         }, 
+//         {
+//             "fsnacks name ": "Noodles" ,
+//             "price": "Ksh 280"
+//         },
+//         {
+//             "snacks name": "Snack Bars<" ,
+//             "price": "Ksh 220"
+//         },
+//         {
+//             "snacks name ": "Samosa" ,
+//             "price": "Ksh 80"
+//         },
+//         {
+//             "snaks name ": "Black Forest Slice" ,
+//             "price": "Ksh 190"
+//         },
+//         {
+//             "snacks name ": "Strawberry Marshmallow" ,
+//             "price": "Ksh 300"
+//         }
+//     ]
+// }

@@ -2,8 +2,26 @@
     background: sandybrown;
 }
 
-.h1 {
-    top: left;
+h1,p {
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+}
+
+div1{
+    margin: right;
+    text-align: right;
+}
+
+h4{
+    text-align: center;
+}
+
+div2{
+    vertical-align: text-top;
+    text-align: center;
 }
 
 .stars {
@@ -17,7 +35,7 @@
 .stars a{
     opacity: 50%;
     cursor: pointer;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .stars:hover a {
