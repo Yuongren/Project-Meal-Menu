@@ -1,9 +1,16 @@
 // Write your code here
-document.addEventListener('DOMContentLoaded', (evetn) => {
-    getfoodsdrinksandsnacks()
-})
+// document.addEventListener('DOMContentLoaded', (evetn) => {
+//     getfoodsdrinksandsnacks()
+// })
 
-
+// function getFoodsdrinksandsnacks(){
+//     fetch("http://localhost:3000/foodsdrinksandsnacks").then(res => res.json()).then(data => {
+//         console.log(data);
+//         data.forEach(foodsdrinksandsnacks => {
+//             displayFoodsdrinksandsnacks(foodsdrinksandsnacks)
+//         })
+//     })
+// }
 
 
 const star = document.querySelector(".stars a")
