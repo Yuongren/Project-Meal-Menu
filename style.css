@@ -4,24 +4,36 @@
 
 h1,p {
     text-align: center;
+    font-family: v;
 }
 
 h3{
     text-align: right;
 }
 
-div1{
-    margin: right;
+#foods{
+    border-radius: 0%;
+    border-style: solid;
+    border-width: medium;
+}
+
+#drinks{
     text-align: right;
+    border-radius: 0%;
+    border-style: solid;
+    border-width: medium;
+    
 }
 
 h4{
     text-align: center;
 }
 
-div2{
-    vertical-align: text-top;
+#snacks{
     text-align: center;
+    border-radius: 0%;
+    border-style: solid;
+    border-width: medium;
 }
 
 .stars {
