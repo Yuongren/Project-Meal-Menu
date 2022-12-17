@@ -32,8 +32,8 @@ h4{
 #snacks{
     text-align: center;
     border-radius: 0%;
-    /* border-style: solid;
-    border-width: medium; */
+    border-style: solid;
+    border-width: medium;
 }
 
 .stars {
