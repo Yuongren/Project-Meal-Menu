@@ -6,34 +6,30 @@ h1,p {
     text-align: center;
 }
 
-h3{
-    text-align: right;
-}
 
-#foods{
+
+.foods {
+    position: relative;
+    display: inline-block;
+  }
+
+
+/* #foods
+{
+    width:50%;
+    height:285px;
+    background-color: blue;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 50px;
+} */
+
+/* #snacks{
+    text-align: left;
     border-radius: 0%;
     border-style: solid;
     border-width: medium;
-}
-
-#drinks{
-    text-align: right;
-    border-radius: 0%;
-    border-style: solid;
-    border-width: medium;
-    
-}
-
-h4{
-    text-align: center;
-}
-
-#snacks{
-    text-align: center;
-    border-radius: 0%;
-    border-style: solid;
-    border-width: medium;
-}
+} */
 
 .stars {
     display: flex;

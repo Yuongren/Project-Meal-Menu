@@ -1,6 +1,20 @@
 // Write your code here 
+// document.addEventListener("DOMContentLoaded", () => {
+//     getfoodsdrinksandsnacks()
+// })
 
-
+document.getElementById("mybtn").addEventListener("click",function()
+        {
+            var mybox=document.getElementById("foods");
+            if(mybox.style.display=="none")
+            {
+                mybox.style.display="block";
+            }
+            else
+            {
+                mybox.style.display="none"
+            }
+        })
 
 function myFunction() {
     var x = document.createElement("BUTTON");
