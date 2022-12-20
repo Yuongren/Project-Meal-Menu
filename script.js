@@ -5,7 +5,7 @@
 
 document.getElementById("mybtn").addEventListener("click",function()
         {
-            var mybox=document.getElementById("foods");
+            var mybox=document.getElementById("Resturant Menu");
             if(mybox.style.display=="none")
             {
                 mybox.style.display="block";
@@ -15,6 +15,19 @@ document.getElementById("mybtn").addEventListener("click",function()
                 mybox.style.display="none"
             }
         })
+    
+// document.getElementById("btn").addEventListener("click",function()
+// {
+//     var mybox=document.getElementById("foods");
+//     if(mybox.style.display=="none")
+//     {
+//         mybox.style.display="inline-block";
+//     }
+//     else
+//     {
+//         mybox.style.display="none"
+//     }
+// })
 
 function myFunction() {
     var x = document.createElement("BUTTON");

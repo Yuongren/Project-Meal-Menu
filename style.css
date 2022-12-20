@@ -14,11 +14,11 @@ h1,p {
   }
 
 
-#foods
+#mybtn
 {
-    width:50%;
-    height:285px;
-    background-color: blue;
+    width: 20%;
+    height: 35px;
+    background-color: white;
     margin-top: 23px;
     margin-bottom: 23px;
     margin-left: 50px;
