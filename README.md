@@ -26,6 +26,8 @@ If not run this command to install json-server glonaly `npm install -g json-serv
 
 After that run `json-server --watchdb.json`
 
+You can visit the page from [here](https://yuongren.github.io/Project-Meal-Menu/)
+
 ## Authors
 
 Youngren Gitonga
