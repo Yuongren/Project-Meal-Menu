@@ -1,7 +1,4 @@
 // Write your code here 
-// document.addEventListener("DOMContentLoaded", () => {
-//     getfoodsdrinksandsnacks()
-// })
 
 document.getElementById("mybtn").addEventListener("click",function()
         {
@@ -16,18 +13,7 @@ document.getElementById("mybtn").addEventListener("click",function()
             }
         })
     
-// document.getElementById("btn").addEventListener("click",function()
-// {
-//     var mybox=document.getElementById("foods");
-//     if(mybox.style.display=="none")
-//     {
-//         mybox.style.display="inline-block";
-//     }
-//     else
-//     {
-//         mybox.style.display="none"
-//     }
-// })
+
 
 function myFunction() {
     var x = document.createElement("BUTTON");
