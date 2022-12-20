@@ -1,5 +1,9 @@
 // Write your code here 
 
+fetch()
+ .then(res => res.json())
+ .then(data => console.log(data))
+
 document.getElementById("mybtn").addEventListener("click",function()
         {
             var mybox=document.getElementById("Resturant Menu");
