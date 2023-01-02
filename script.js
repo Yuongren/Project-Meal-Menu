@@ -1,15 +1,15 @@
 // Write your code here 
 
-fetch()
- .then(res => res.json())
- .then(data => console.log(data))
+// fetch()
+//  .then(res => res.json())
+//  .then(data => console.log(data))
 
 document.getElementById("mybtn").addEventListener("click",function()
         {
             var mybox=document.getElementById("Resturant Menu");
             if(mybox.style.display=="none")
             {
-                mybox.style.display="block";
+                mybox  .style.display="block";
             }
             else
             {
@@ -20,7 +20,7 @@ document.getElementById("mybtn").addEventListener("click",function()
 
 
 function myFunction() {
-    var x = document.createElement("BUTTON");
+    var x = document.createElement("FORM");
     var t = document.createTextNode("Click me");
     x.appendChild(t);
     document.body.appendChild(x);
@@ -41,4 +41,13 @@ stars.forEach((star, clickedIdx) => {
         console.log(`star of index ${idx +1} was clicked`);
 
     })
+})
+
+const myform = document.getElementById("myform")
+
+
+myform.addEventListener("submit", (e) => {
+    e.preventDefault()
+
+    console.log("form has been submitted")
 })
